@@ -1,0 +1,218 @@
+/* Step 2 */
+body {
+	background-color: #848482;
+}
+/* Step 4a */
+h1, h2, h3 {
+	background-color: #b6b6b4;
+	font-weight: bold;
+	color: #292b2d;
+	text-align: center;
+}
+/* Step 4b */
+.shoe {
+	padding: 0.625rem;
+	background-color: rgb(178, 132, 57);
+	
+	border-style: dashed;
+	border-width: 0.125rem;
+	border-color: green;
+}
+/* Step 4c */
+header, footer {
+	background-color: #008080
+}
+/* Step 4d */
+footer {
+	font-size: 0.75rem;
+}
+/* Step 4e */
+nav {
+	background-color: #000000;
+}
+
+nav :link{
+	color: #FFFFFF;
+}
+/* Step 4f */
+footer li, nav li {
+	list-style-type: none;
+}
+/* Step 4g */
+.shoe h2 {
+	font-style: italic;
+}
+/* Step 4h */
+.shoe {
+	border-radius: 1rem;
+}
+/* Step 4i */
+#locations {
+	list-style-image: url("../images/arrow.png");
+}
+/* Step 4j */
+:visited {
+	color: #800000;
+}
+/* Step 4k */
+nav :visited {
+	color: #FFA500;
+}
+
+:link {
+	text-decoration: none;
+}
+/* Step 4l */
+.shoe details {
+	color: #008080;
+}
+/* Image Sytling 1 */
+.underConstruction {
+	color: #FFA500;
+	font-style: italic;
+	font-size: 1.5rem
+}
+/* Image Styling 2 */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	border-style: dotted;
+	border-width: 0.250rem;
+	border-color: #000000;
+}
+
+.shoe img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-style: solid;
+	border-width: 0.250rem;
+	border-color: #000000;
+}
+/* Order Table background color and border */
+.order {
+	background-color: #FFDF00;
+	border: solid 0.0625rem #FFFFFF;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Order Table Add Padding */
+.order td,.order th,.order caption{
+	padding: 0.5rem;
+}
+
+/* Order Table Caption color and size */
+.order caption {
+	font-weight: bold;
+	font-size: 1.1rem;
+	background-color: #64E986;
+}
+
+/* shoe Table background color and border */
+.shoe table {
+	background-color: #000000;
+	border: solid 0.0625rem #810541;
+}
+
+/* shoe table centered and font size */
+.shoe table {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1rem;
+	width: 80%;
+}
+
+/* shoe table padding */
+.shoe table td,.shoe table th,.shoe table caption{
+	padding: 0.5rem;
+}
+
+/* shoe table every other row */
+.shoe table tbody tr:nth-child(odd),.shoe table caption {
+	background-color: #FFFFFF;
+}
+
+/* shoe table hover */
+.shoe table tbody tr:hover {
+	background-color: #2916F5;
+}
+
+/* survey legend*/
+.surveyStyles legend {
+	background-color: #3EA99F;
+	color: #F62817;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed 0.3rem #FFFFFF
+}
+
+/* survey fieldset*/
+.surveyStyles fieldset {
+	background-color: #FF7F50;
+}
+
+/* survey fieldset*/
+.order th {
+	background-color: #FF5F1F;
+	border: solid 0.0625rem #FFFFFF;
+}
+
+@media only screen and (min-width: 500px) {
+	.shoe img {max-width: 100%}
+}
+
+@media only screen and (max-width: 500px) {
+	.shoe img {display:none}
+}
+
+caption {
+	caption-side: top;
+}
+
+.contactUsTitle {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 0.0625rem #FFA500;
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: #00827F;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding-top: 0.5rem;
+}
+
+.textCenter {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contactForm {
+	background-color: #5F9EA0;
+	color: #FFA500;
+	border: dashed 0.0625rem #000000;
+}
+
+.faqStyles {
+	background-color: #FDBD01;
+	color: #00827F;
+	margin-bottom: 1rem;
+	border: solid 0.25rem #FFFFFF;
+}
+
+.faqIndent {
+	text-indent: 50px;
+}
+
+.contactForm textarea {
+  background-image: url("../images/burn-elmo.gif");
+  height: 300px;
+}
